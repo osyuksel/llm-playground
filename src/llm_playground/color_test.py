@@ -1,3 +1,10 @@
+"""
+This is a test to see if a language model can go against its statistical priors.
+The experiment presents unusual combinations of eye and hair colors to language models
+and tests if they can accurately recall these uncommon attributes instead of
+defaulting to more common, statistically frequent combinations.
+"""
+
 import logging
 import os
 import random
@@ -235,7 +242,9 @@ def main():
     results = run_experiment()
 
     detailed_df = create_detailed_df(results)
-    summary_df = create_summary_df(results).sort_values(by=["model", "avg_accuracy"], ascending=[True, False])
+    summary_df = create_summary_df(results).sort_values(
+        by=["model", "avg_accuracy"], ascending=[True, False]
+    )
 
     os.makedirs("output/color_test", exist_ok=True)
     detailed_df.to_csv("output/color_test/detailed.csv", index=False)
