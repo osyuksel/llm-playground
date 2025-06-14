@@ -1,0 +1,4185 @@
+model,success,accuracy,expected,prompt,actual,fail_reason,raw_response
+anthropic/claude-sonnet-4,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'blue']",,"1. white
+2. amber
+3. blue"
+openai/gpt-4o,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Blue']",,"1. White
+2. Amber
+3. Blue"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'blue']",,"1. white
+2. amber
+3. blue"
+x-ai/grok-3-beta,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Blue']",,"1. White
+2. Amber
+3. Blue"
+meta-llama/llama-4-scout,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'blue']",,"1. white
+2. amber
+3. blue"
+openai/gpt-4o-mini,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'blue']",,"1. white  
+2. amber  
+3. blue  "
+anthropic/claude-3.5-haiku,True,0.6666666666666666,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'pink', 'blue']",,"1. white
+2. pink
+3. blue"
+deepseek/deepseek-r1-0528,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'blue']",,"1. white
+2. amber
+3. blue"
+meta-llama/llama-4-maverick,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'blue']",,"1. white
+2. amber
+3. blue"
+google/gemma-3-4b-it,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Blue']",,"1. White
+2. Amber
+3. Blue"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Blue']",,"1. White
+2. Amber
+3. Blue"
+mistral/ministral-8b,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Blue']",,"1. White
+2. Amber
+3. Blue"
+mistralai/ministral-3b,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Blue']",,"1. White
+2. Amber
+3. Blue"
+mistralai/mistral-tiny,True,0.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","[""Zoe's eye color is not specified"", ""John's hair color is amber"", ""Marta's hair color is blue""]",,"1. Zoe's eye color is not specified.
+2. John's hair color is amber.
+3. Marta's hair color is blue."
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'blue']",,"1. white  
+2. amber  
+3. blue"
+inception/mercury-coder-small-beta,True,0.6666666666666666,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'pink', 'blue']",,"1. white
+2. pink
+3. blue"
+meta-llama/llama-3.2-1b-instruct,True,0.3333333333333333,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['violet', 'pink', 'blue']",,"1. violet
+2. pink
+3. blue"
+qwen/qwen3-8b,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'blue']",,"1. white  
+2. amber  
+3. blue"
+qwen/qwen-turbo,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Blue']",,"1. White
+2. Amber
+3. Blue"
+liquid/lfm-3b,True,0.3333333333333333,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Pink', 'Gray']",,"1. White
+2. Pink
+3. Gray"
+amazon/nova-micro-v1,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'blue']",,"1. white
+2. amber
+3. blue"
+openai/gpt-4.1-nano,True,1.0,"['white', 'amber', 'blue']","Zoe has white eyes and violet hair.
+John has pink eyes and amber hair.
+Marta has gray eyes and blue hair.
+Pranav has green eyes and brown hair.
+Karl has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Zoe's eye color?
+2. What is John's hair color?
+3. What is Marta's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Blue']",,"1. White
+2. Amber
+3. Blue"
+anthropic/claude-sonnet-4,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'green', 'violet']",,"1. pink
+2. green
+3. violet"
+openai/gpt-4o,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink  
+2. Green  
+3. Violet"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink
+2. Green
+3. Violet"
+x-ai/grok-3-beta,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink
+2. Green
+3. Violet"
+meta-llama/llama-4-scout,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'green', 'violet']",,"1. pink
+2. green
+3. violet"
+openai/gpt-4o-mini,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink  
+2. Green  
+3. Violet  "
+anthropic/claude-3.5-haiku,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'green', 'violet']",,"1. pink
+2. green
+3. violet"
+deepseek/deepseek-r1-0528,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'green', 'violet']",,"1. pink
+2. green
+3. violet"
+meta-llama/llama-4-maverick,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'green', 'violet']",,"1. pink
+2. green
+3. violet"
+google/gemma-3-4b-it,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet', '']",,"1. Pink
+2. Green
+3. Violet
+"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink
+2. Green
+3. Violet"
+mistral/ministral-8b,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink
+2. Green
+3. Violet"
+mistralai/ministral-3b,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink
+2. Green
+3. Violet"
+mistralai/mistral-tiny,True,0.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","[""John's eye color is pink"", ""Riku's hair color is blue"", ""Isha's hair color is violet""]",,"1. John's eye color is pink.
+2. Riku's hair color is blue.
+3. Isha's hair color is violet."
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'green', 'violet']",,"1. pink  
+2. green  
+3. violet"
+inception/mercury-coder-small-beta,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'green', 'violet']",,"1. pink
+2. green
+3. violet"
+meta-llama/llama-3.2-1b-instruct,True,0.6666666666666666,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'red', 'violet']",,"1. pink
+2. red
+3. violet"
+qwen/qwen3-8b,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'green', 'violet']",,"1. pink  
+2. green  
+3. violet"
+qwen/qwen-turbo,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink
+2. Green
+3. Violet"
+liquid/lfm-3b,True,0.6666666666666666,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Red', 'Violet']",,"1. Pink
+2. Red
+3. Violet"
+amazon/nova-micro-v1,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink
+2. Green
+3. Violet"
+openai/gpt-4.1-nano,True,1.0,"['pink', 'green', 'violet']","John has pink eyes and blue hair.
+Riku has red eyes and green hair.
+Isha has black eyes and violet hair.
+Nagisa has green eyes and brown hair.
+Ali has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is John's eye color?
+2. What is Riku's hair color?
+3. What is Isha's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Green', 'Violet']",,"1. Pink  
+2. Green  
+3. Violet"
+anthropic/claude-sonnet-4,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red
+2. amber
+3. violet"
+openai/gpt-4o,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Amber', 'Violet']",,"1. Red  
+2. Amber  
+3. Violet"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Amber', 'Violet']",,"1. Red
+2. Amber
+3. Violet"
+x-ai/grok-3-beta,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Amber', 'Violet']",,"1. Red
+2. Amber
+3. Violet"
+meta-llama/llama-4-scout,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red
+2. amber
+3. violet"
+openai/gpt-4o-mini,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red  
+2. amber  
+3. violet  "
+anthropic/claude-3.5-haiku,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red
+2. amber
+3. violet"
+deepseek/deepseek-r1-0528,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red
+2. amber
+3. violet"
+meta-llama/llama-4-maverick,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red
+2. amber
+3. violet"
+google/gemma-3-4b-it,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Amber', 'Violet', '']",,"1. Red
+2. Amber
+3. Violet
+"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Amber', 'Violet']",,"1. Red
+2. Amber
+3. Violet"
+mistral/ministral-8b,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Amber', 'Violet']",,"1. Red
+2. Amber
+3. Violet"
+mistralai/ministral-3b,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Amber', 'Violet']",,"1. Red
+2. Amber
+3. Violet"
+mistralai/mistral-tiny,True,0.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","[""Lucy's eye color is red"", ""Ali's hair color is amber"", ""Zoe's hair color is violet""]",,"1. Lucy's eye color is red.
+2. Ali's hair color is amber.
+3. Zoe's hair color is violet."
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red  
+2. amber  
+3. violet"
+inception/mercury-coder-small-beta,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red
+2. amber
+3. violet"
+meta-llama/llama-3.2-1b-instruct,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red
+2. amber
+3. violet"
+qwen/qwen3-8b,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red  
+2. amber  
+3. violet"
+qwen/qwen-turbo,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Amber', 'Violet']",,"1. Red
+2. Amber
+3. Violet"
+liquid/lfm-3b,True,0.6666666666666666,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Copper', 'Violet']",,"1. Red
+2. Copper
+3. Violet"
+amazon/nova-micro-v1,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'amber', 'violet']",,"1. red
+2. amber
+3. violet"
+openai/gpt-4.1-nano,True,1.0,"['red', 'amber', 'violet']","Lucy has red eyes and green hair.
+Ali has copper eyes and amber hair.
+Zoe has pink eyes and violet hair.
+Maryam has green eyes and brown hair.
+John has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Amber', 'Violet']",,"1. Red
+2. Amber
+3. Violet"
+anthropic/claude-sonnet-4,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink
+2. blue
+3. amber"
+openai/gpt-4o,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber']",,"1. Pink  
+2. Blue  
+3. Amber"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber']",,"1. Pink
+2. Blue
+3. Amber"
+x-ai/grok-3-beta,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber']",,"1. Pink
+2. Blue
+3. Amber"
+meta-llama/llama-4-scout,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink
+2. blue
+3. amber"
+openai/gpt-4o-mini,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink  
+2. blue  
+3. amber  "
+anthropic/claude-3.5-haiku,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink
+2. blue
+3. amber"
+deepseek/deepseek-r1-0528,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink
+2. blue
+3. amber"
+meta-llama/llama-4-maverick,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink
+2. blue
+3. amber"
+google/gemma-3-4b-it,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber', '']",,"1. Pink
+2. Blue
+3. Amber
+"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber']",,"1. Pink
+2. Blue
+3. Amber"
+mistral/ministral-8b,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber']",,"1. Pink
+2. Blue
+3. Amber"
+mistralai/ministral-3b,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber']",,"1. Pink
+2. Blue
+3. Amber"
+mistralai/mistral-tiny,True,0.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink eyes', 'Green hair', 'Amber hair']",,"1. Pink eyes
+2. Green hair
+3. Amber hair"
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink  
+2. blue  
+3. amber"
+inception/mercury-coder-small-beta,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink
+2. blue
+3. amber"
+meta-llama/llama-3.2-1b-instruct,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink
+2. blue
+3. amber"
+qwen/qwen3-8b,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['pink', 'blue', 'amber']",,"1. pink  
+2. blue  
+3. amber"
+qwen/qwen-turbo,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber']",,"1. Pink
+2. Blue
+3. Amber"
+liquid/lfm-3b,True,0.3333333333333333,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'White', 'Blue']",,"1. Pink
+2. White
+3. Blue"
+amazon/nova-micro-v1,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber']",,"1. Pink
+2. Blue
+3. Amber"
+openai/gpt-4.1-nano,True,1.0,"['pink', 'blue', 'amber']","Pranav has pink eyes and green hair.
+Wei has white eyes and blue hair.
+Zoe has red eyes and amber hair.
+Ali has green eyes and brown hair.
+Lucy has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Pranav's eye color?
+2. What is Wei's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Pink', 'Blue', 'Amber']",,"1. Pink
+2. Blue
+3. Amber"
+anthropic/claude-sonnet-4,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray
+2. green
+3. blue"
+openai/gpt-4o,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Green', 'Blue']",,"1. Gray
+2. Green
+3. Blue"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Green', 'Blue']",,"1. Gray
+2. Green
+3. Blue"
+x-ai/grok-3-beta,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Green', 'Blue']",,"1. Gray
+2. Green
+3. Blue"
+meta-llama/llama-4-scout,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray
+2. green
+3. blue"
+openai/gpt-4o-mini,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray  
+2. green  
+3. blue  "
+anthropic/claude-3.5-haiku,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray
+2. green
+3. blue"
+deepseek/deepseek-r1-0528,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray
+2. green
+3. blue"
+meta-llama/llama-4-maverick,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray
+2. green
+3. blue"
+google/gemma-3-4b-it,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Green', 'Blue']",,"1. Gray
+2. Green
+3. Blue"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Green', 'Blue']",,"1. Gray
+2. Green
+3. Blue"
+mistral/ministral-8b,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Green', 'Blue']",,"1. Gray
+2. Green
+3. Blue"
+mistralai/ministral-3b,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Green', 'Blue']",,"1. Gray
+2. Green
+3. Blue"
+mistralai/mistral-tiny,True,0.6666666666666666,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Amber', 'Blue']",,"1. Gray
+2. Amber
+3. Blue"
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Green', 'Blue']",,"1. Gray  
+2. Green  
+3. Blue"
+inception/mercury-coder-small-beta,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray
+2. green
+3. blue"
+meta-llama/llama-3.2-1b-instruct,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray
+2. green
+3. blue"
+qwen/qwen3-8b,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray  
+2. green  
+3. blue"
+qwen/qwen-turbo,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Green', 'Blue']",,"1. Gray
+2. Green
+3. Blue"
+liquid/lfm-3b,True,0.6666666666666666,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Pink', 'Blue']",,"1. Gray
+2. Pink
+3. Blue"
+amazon/nova-micro-v1,True,1.0,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['gray', 'green', 'blue']",,"1. gray
+2. green
+3. blue"
+openai/gpt-4.1-nano,True,0.6666666666666666,"['gray', 'green', 'blue']","Lucy has gray eyes and amber hair.
+Ali has pink eyes and green hair.
+John has black eyes and blue hair.
+Karl has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Lucy's eye color?
+2. What is Ali's hair color?
+3. What is John's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Gray', 'Pink', 'Blue']",,"1. Gray  
+2. Pink  
+3. Blue"
+anthropic/claude-sonnet-4,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+openai/gpt-4o,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Green']",,"1. White  
+2. Amber  
+3. Green"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Green']",,"1. White
+2. Amber
+3. Green"
+x-ai/grok-3-beta,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+meta-llama/llama-4-scout,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+openai/gpt-4o-mini,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white  
+2. amber  
+3. green  "
+anthropic/claude-3.5-haiku,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+deepseek/deepseek-r1-0528,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+meta-llama/llama-4-maverick,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+google/gemma-3-4b-it,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Green']",,"1. White
+2. Amber
+3. Green"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Green']",,"1. White
+2. Amber
+3. Green"
+mistral/ministral-8b,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Green']",,"1. White
+2. Amber
+3. Green"
+mistralai/ministral-3b,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Green']",,"1. White
+2. Amber
+3. Green"
+mistralai/mistral-tiny,True,0.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","[""Nagisa's eye color is white"", ""Maryam's hair color is amber"", ""Wei's hair color is green""]",,"1. Nagisa's eye color is white.
+2. Maryam's hair color is amber.
+3. Wei's hair color is green."
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white  
+2. amber  
+3. green"
+inception/mercury-coder-small-beta,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+meta-llama/llama-3.2-1b-instruct,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+qwen/qwen3-8b,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white  
+2. amber  
+3. green"
+qwen/qwen-turbo,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+liquid/lfm-3b,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Green']",,"1. White
+2. Amber
+3. Green"
+amazon/nova-micro-v1,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'amber', 'green']",,"1. white
+2. amber
+3. green"
+openai/gpt-4.1-nano,True,1.0,"['white', 'amber', 'green']","Nagisa has white eyes and blue hair.
+Maryam has black eyes and amber hair.
+Wei has copper eyes and green hair.
+Zoe has green eyes and brown hair.
+Pranav has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Nagisa's eye color?
+2. What is Maryam's hair color?
+3. What is Wei's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Amber', 'Green']",,"1. White  
+2. Amber  
+3. Green"
+anthropic/claude-sonnet-4,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'green']",,"1. red
+2. blue
+3. green"
+openai/gpt-4o,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red  
+2. Blue  
+3. Green"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red
+2. Blue
+3. Green"
+x-ai/grok-3-beta,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red
+2. Blue
+3. Green"
+meta-llama/llama-4-scout,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'green']",,"1. red
+2. blue
+3. green"
+openai/gpt-4o-mini,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red  
+2. Blue  
+3. Green  "
+anthropic/claude-3.5-haiku,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'green']",,"1. red
+2. blue
+3. green"
+deepseek/deepseek-r1-0528,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'green']",,"1. red
+2. blue
+3. green"
+meta-llama/llama-4-maverick,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'green']",,"1. red
+2. blue
+3. green"
+google/gemma-3-4b-it,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red
+2. Blue
+3. Green"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red
+2. Blue
+3. Green"
+mistral/ministral-8b,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red
+2. Blue
+3. Green"
+mistralai/ministral-3b,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red
+2. Blue
+3. Green"
+mistralai/mistral-tiny,True,0.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","[""Marta's eye color is red"", ""Lucy's hair color is blue"", ""Ali's hair color is green""]",,"1. Marta's eye color is red.
+2. Lucy's hair color is blue.
+3. Ali's hair color is green."
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'green']",,"1. red  
+2. blue  
+3. green"
+inception/mercury-coder-small-beta,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'green']",,"1. red
+2. blue
+3. green"
+meta-llama/llama-3.2-1b-instruct,True,0.3333333333333333,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Amber', 'Gray', 'Green']",,"1. Amber
+2. Gray
+3. Green"
+qwen/qwen3-8b,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'green']",,"1. red  
+2. blue  
+3. green"
+qwen/qwen-turbo,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red
+2. Blue
+3. Green"
+liquid/lfm-3b,True,0.3333333333333333,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Gray', 'Copper']",,"1. Red
+2. Gray
+3. Copper"
+amazon/nova-micro-v1,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'green']",,"1. red
+2. blue
+3. green"
+openai/gpt-4.1-nano,True,1.0,"['red', 'blue', 'green']","Marta has red eyes and amber hair.
+Lucy has gray eyes and blue hair.
+Ali has copper eyes and green hair.
+Wei has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Marta's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Green']",,"1. Red
+2. Blue
+3. Green"
+anthropic/claude-sonnet-4,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'violet']",,"1. red
+2. blue
+3. violet"
+openai/gpt-4o,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red  
+2. Blue  
+3. Violet"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red
+2. Blue
+3. Violet"
+x-ai/grok-3-beta,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red
+2. Blue
+3. Violet"
+meta-llama/llama-4-scout,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'violet']",,"1. red
+2. blue
+3. violet"
+openai/gpt-4o-mini,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red  
+2. Blue  
+3. Violet  "
+anthropic/claude-3.5-haiku,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'violet']",,"1. red
+2. blue
+3. violet"
+deepseek/deepseek-r1-0528,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'violet']",,"1. red
+2. blue
+3. violet"
+meta-llama/llama-4-maverick,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'violet']",,"1. red
+2. blue
+3. violet"
+google/gemma-3-4b-it,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet', '']",,"1. Red
+2. Blue
+3. Violet
+"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red
+2. Blue
+3. Violet"
+mistral/ministral-8b,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red
+2. Blue
+3. Violet"
+mistralai/ministral-3b,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red
+2. Blue
+3. Violet"
+mistralai/mistral-tiny,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red
+2. Blue
+3. Violet"
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'violet']",,"1. red  
+2. blue  
+3. violet"
+inception/mercury-coder-small-beta,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red
+2. Blue
+3. Violet"
+meta-llama/llama-3.2-1b-instruct,True,0.6666666666666666,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['green', 'blue', 'violet']",,"1. green
+2. blue
+3. violet"
+qwen/qwen3-8b,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'violet']",,"1. red  
+2. blue  
+3. violet"
+qwen/qwen-turbo,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Blue', 'Violet']",,"1. Red
+2. Blue
+3. Violet"
+liquid/lfm-3b,True,0.6666666666666666,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Red', 'Gray', 'Violet']",,"1. Red
+2. Gray
+3. Violet"
+amazon/nova-micro-v1,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'violet']",,"1. red
+2. blue
+3. violet"
+openai/gpt-4.1-nano,True,1.0,"['red', 'blue', 'violet']","Wei has red eyes and green hair.
+Dimitri has gray eyes and blue hair.
+Nagisa has white eyes and violet hair.
+John has green eyes and brown hair.
+Zoe has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Wei's eye color?
+2. What is Dimitri's hair color?
+3. What is Nagisa's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['red', 'blue', 'violet']",,"1. red  
+2. blue  
+3. violet"
+anthropic/claude-sonnet-4,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+openai/gpt-4o,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Green', 'Blue']",,"1. White  
+2. Green  
+3. Blue"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+x-ai/grok-3-beta,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+meta-llama/llama-4-scout,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+openai/gpt-4o-mini,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white  
+2. green  
+3. blue  "
+anthropic/claude-3.5-haiku,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+deepseek/deepseek-r1-0528,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+meta-llama/llama-4-maverick,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+google/gemma-3-4b-it,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Green', 'Blue']",,"1. White
+2. Green
+3. Blue"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Green', 'Blue']",,"1. White
+2. Green
+3. Blue"
+mistral/ministral-8b,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Green', 'Blue']",,"1. White
+2. Green
+3. Blue"
+mistralai/ministral-3b,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Green', 'Blue']",,"1. White
+2. Green
+3. Blue"
+mistralai/mistral-tiny,True,0.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","[""Maryam's eye color is white"", ""Lucy's hair color is green"", ""Zoe's hair color is blue""]",,"1. Maryam's eye color is white.
+2. Lucy's hair color is green.
+3. Zoe's hair color is blue."
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white  
+2. green  
+3. blue"
+inception/mercury-coder-small-beta,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+meta-llama/llama-3.2-1b-instruct,True,0.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Violet', 'Copper', 'Red']",,"1. Violet
+2. Copper
+3. Red"
+qwen/qwen3-8b,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white  
+2. green  
+3. blue"
+qwen/qwen-turbo,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+liquid/lfm-3b,True,0.6666666666666666,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['White', 'Green', 'Red']",,"1. White
+2. Green
+3. Red"
+amazon/nova-micro-v1,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white
+2. green
+3. blue"
+openai/gpt-4.1-nano,True,1.0,"['white', 'green', 'blue']","Maryam has white eyes and violet hair.
+Lucy has copper eyes and green hair.
+Zoe has red eyes and blue hair.
+Isha has green eyes and brown hair.
+Nagisa has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Maryam's eye color?
+2. What is Lucy's hair color?
+3. What is Zoe's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['white', 'green', 'blue']",,"1. white  
+2. green  
+3. blue"
+anthropic/claude-sonnet-4,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black
+2. blue
+3. amber"
+openai/gpt-4o,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black  
+2. Blue  
+3. Amber"
+google/gemini-2.5-flash-preview-05-20,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black
+2. blue
+3. amber"
+x-ai/grok-3-beta,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black
+2. Blue
+3. Amber"
+meta-llama/llama-4-scout,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black
+2. blue
+3. amber"
+openai/gpt-4o-mini,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black  
+2. blue  
+3. amber  "
+anthropic/claude-3.5-haiku,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black
+2. blue
+3. amber"
+deepseek/deepseek-r1-0528,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black
+2. blue
+3. amber"
+meta-llama/llama-4-maverick,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black
+2. blue
+3. amber"
+google/gemma-3-4b-it,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black
+2. Blue
+3. Amber"
+microsoft/phi-4-multimodal-instruct,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black
+2. Blue
+3. Amber"
+mistral/ministral-8b,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black
+2. Blue
+3. Amber"
+mistralai/ministral-3b,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black
+2. Blue
+3. Amber"
+mistralai/mistral-tiny,True,0.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","[""Dimitri's eye color is black"", ""Lucy's hair color is blue"", ""Ali's hair color is amber""]",,"1. Dimitri's eye color is black.
+2. Lucy's hair color is blue.
+3. Ali's hair color is amber."
+sentientagi/dobby-mini-unhinged-plus-llama-3.1-8b,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black  
+2. Blue  
+3. Amber"
+inception/mercury-coder-small-beta,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black
+2. blue
+3. amber"
+meta-llama/llama-3.2-1b-instruct,True,0.6666666666666666,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['blue', 'blue', 'amber']",,"1. blue
+2. blue
+3. amber"
+qwen/qwen3-8b,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black  
+2. blue  
+3. amber"
+qwen/qwen-turbo,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black
+2. Blue
+3. Amber"
+liquid/lfm-3b,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black
+2. Blue
+3. Amber"
+amazon/nova-micro-v1,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['black', 'blue', 'amber']",,"1. black
+2. blue
+3. amber"
+openai/gpt-4.1-nano,True,1.0,"['black', 'blue', 'amber']","Dimitri has black eyes and green hair.
+Lucy has pink eyes and blue hair.
+Ali has red eyes and amber hair.
+Zoe has green eyes and brown hair.
+Isha has brown eyes and black hair.
+===
+Given the above information, answer the following:
+1. What is Dimitri's eye color?
+2. What is Lucy's hair color?
+3. What is Ali's hair color?
+
+Give your answer in the format:
+1. <answer>
+2. <answer>
+...
+
+Only give the answer to the question. Do not give any other information or acknowledgements.","['Black', 'Blue', 'Amber']",,"1. Black  
+2. Blue  
+3. Amber"
