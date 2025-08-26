@@ -3,6 +3,8 @@ This is a test to see if a language model can go against its statistical priors.
 The experiment presents unusual combinations of eye and hair colors to language models
 and tests if they can accurately recall these uncommon attributes instead of
 defaulting to more common, statistically frequent combinations.
+
+See also the blog post: https://osyuksel.github.io/blog/llm-color-test/
 """
 
 import logging
