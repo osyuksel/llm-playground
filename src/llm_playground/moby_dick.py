@@ -1,3 +1,16 @@
+"""
+A script that performs an experiment using various LLM models to test their ability to recall and predict
+text from Herman Melville's Moby-Dick.
+
+Requires the text file to be present at `.input/pg2701.txt`
+
+Usage:
+    python moby_dick.py collect  # Gather predictions from LLMs
+    python moby_dick.py analyze  # Analyze results and generate reports
+
+See also the blog post: https://osyuksel.github.io/blog/reconstructing-moby-dick-llm/
+"""
+
 import argparse
 import asyncio
 import contextlib
