@@ -198,3 +198,6 @@ secrets.env
 
 # Cache
 .joblib
+
+# Input data
+.input
