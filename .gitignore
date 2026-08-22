@@ -201,3 +201,9 @@ secrets.env
 
 # Input data
 .input
+
+# Temporary filkes
+.tmp/
+
+# PyCharm
+.idea/
